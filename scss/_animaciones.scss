@@ -1,0 +1,31 @@
+
+
+/* Animaciones, transformaciones, transiciones */
+
+/* Agranda botones de redes sociales */
+.transicionBotones{
+    transition: all 2s;
+}
+
+.transicionBotones:hover{
+    height: 80px;
+    width: 80px;
+
+}
+/* Cambio de color seccion sobre mi */
+
+.transicionSobreMi{
+    
+    transition: all 4s;
+}
+.transicionSobreMi:hover{
+    background-color:$fondoMorado;
+}
+
+/* Duracion de animacion titulo */
+
+.animate__animated.animate__backInLeft{
+    --animate-delay: 1s;
+    --animate-duration: 5s;
+}
+
