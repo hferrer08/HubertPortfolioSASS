@@ -1,0 +1,32 @@
+
+
+
+$colors: (
+    index :#2E294E,
+    curriculumvitae : #720b98,
+    contactame : #6f2da8,
+    certificaciones : #8601af,
+    proyectos : #5b0a91,
+);
+
+
+.index {
+    background-color: map-get($colors, index);
+  }
+
+.curriculumvitae {
+    background-color: map-get($colors, curriculumvitae);
+  }
+  .contactame {
+    background-color: map-get($colors, contactame);
+  }
+  .certificaciones {
+    background-color: map-get($colors, certificaciones);
+  }
+  .proyectos {
+    background-color: map-get($colors, proyectos);
+  }
+  
+  
+  
+  
