@@ -1,4 +1,4 @@
-.sobreMi {
+.sobreMi, .videoFrontend {
   border: solid white 1px;
   border-radius: 30px;
   padding: 20px; }
@@ -12,8 +12,11 @@
   justify-content: center; }
 
 .icon {
-  width: 50px;
-  height: 50px; }
+  height: 50px;
+  width: 50px; }
+
+.videoFrontend {
+  border: solid purple 1px; }
 
 /* Animaciones, transformaciones, transiciones */
 /* Agranda botones de redes sociales */

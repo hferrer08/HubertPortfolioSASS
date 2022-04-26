@@ -8,8 +8,8 @@
 }
 
 .transicionBotones:hover{
-    height: 80px;
-    width: 80px;
+    // Utilizando mixin
+    @include sizes(80px, 80px);
 
 }
 /* Cambio de color seccion sobre mi */
