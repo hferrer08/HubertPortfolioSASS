@@ -1,12 +1,11 @@
-.sobreMi, .videoFrontend {
-  border: solid white 1px;
+.sobreMi {
   border-radius: 30px;
   padding: 20px; }
 
 .posicionRedes {
   position: fixed;
   top: 200px;
-  right: 30px;
+  right: 20px;
   flex-direction: column;
   text-align: center;
   justify-content: center; }
@@ -15,8 +14,8 @@
   height: 50px;
   width: 50px; }
 
-.videoFrontend {
-  border: solid purple 1px; }
+.circular {
+  border-radius: 50%; }
 
 /* Animaciones, transformaciones, transiciones */
 /* Agranda botones de redes sociales */
