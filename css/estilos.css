@@ -38,6 +38,9 @@
   --animate-delay: 1s;
   --animate-duration: 5s; }
 
+.colorFuenteProyectos {
+  color: #FFFF; }
+
 .decoracionLink {
   text-decoration: none; }
 
