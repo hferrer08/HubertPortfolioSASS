@@ -17,6 +17,10 @@
 .circular {
   border-radius: 50%; }
 
+.vineta {
+  height: 30px;
+  width: 30px; }
+
 /* Animaciones, transformaciones, transiciones */
 /* Agranda botones de redes sociales */
 .transicionBotones {

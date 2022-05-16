@@ -29,4 +29,6 @@
     border-radius: 50%
 }
      
-
+.vineta{
+    @include sizes(30px,30px);
+}
