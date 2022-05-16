@@ -41,6 +41,10 @@
 .colorFuenteProyectos {
   color: #FFFF; }
 
+.colorBoton {
+  color: black;
+  font-weight: bold; }
+
 .decoracionLink {
   text-decoration: none; }
 
