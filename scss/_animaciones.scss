@@ -12,6 +12,17 @@
     @include sizes(80px, 80px);
 
 }
+
+/* Opacidad botones contactame */
+.transicionInputForm{
+    transition: all 1s;
+}
+
+.transicionInputForm:hover{
+    opacity: 50%;
+    @include sizes(80px, 30px);
+}
+
 /* Cambio de color seccion sobre mi */
 
 .transicionSobreMi{

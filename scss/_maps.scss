@@ -1,5 +1,5 @@
 
-
+/* Maps para navbar en los 5 html */
 
 $colors: (
     index :#2E294E,
@@ -9,6 +9,7 @@ $colors: (
     proyectos : #5b0a91,
 );
 
+/* En cada html un color distinto */
 
 .index {
     background-color: map-get($colors, index);
@@ -26,7 +27,9 @@ $colors: (
   .proyectos {
     background-color: map-get($colors, proyectos);
   }
-  
+  .colorInputForm {
+    background-color: map-get($colors, index);
+  }
   
   
   

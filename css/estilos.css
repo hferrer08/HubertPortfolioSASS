@@ -1,7 +1,10 @@
+@charset "UTF-8";
+/* Seccion sobre mi index */
 .sobreMi {
   border-radius: 30px;
   padding: 20px; }
 
+/* Navegador de redes sociales */
 .posicionRedes {
   position: fixed;
   top: 200px;
@@ -10,16 +13,23 @@
   text-align: center;
   justify-content: center; }
 
+/* tamaño iconos */
 .icon {
   height: 50px;
   width: 50px; }
 
+/* Circulo para logo */
 .circular {
   border-radius: 50%; }
 
+/* Viñeta trofeo para certificaciones */
 .vineta {
   height: 30px;
   width: 30px; }
+
+/* Redondear bordes */
+.bordesRedondeados {
+  border-radius: 20px; }
 
 /* Animaciones, transformaciones, transiciones */
 /* Agranda botones de redes sociales */
@@ -28,6 +38,15 @@
 
 .transicionBotones:hover {
   height: 80px;
+  width: 80px; }
+
+/* Opacidad botones contactame */
+.transicionInputForm {
+  transition: all 1s; }
+
+.transicionInputForm:hover {
+  opacity: 50%;
+  height: 30px;
   width: 80px; }
 
 /* Cambio de color seccion sobre mi */
@@ -42,20 +61,27 @@
   --animate-delay: 1s;
   --animate-duration: 5s; }
 
+/* Variable para color de parrafo */
+/* color fuente de html proyectos */
 .colorFuenteProyectos {
   color: #FFFF; }
 
+/* color botones de carrusel de imagenes */
 .colorBoton {
   color: black;
   font-weight: bold; }
 
+/* Quitar decoracion hipervinculos */
 .decoracionLink {
   text-decoration: none; }
 
+/* // Reset margin-padding */
 * {
   margin: 0;
   padding: 0; }
 
+/* Maps para navbar en los 5 html */
+/* En cada html un color distinto */
 .index {
   background-color: #2E294E; }
 
@@ -70,3 +96,6 @@
 
 .proyectos {
   background-color: #5b0a91; }
+
+.colorInputForm {
+  background-color: #2E294E; }

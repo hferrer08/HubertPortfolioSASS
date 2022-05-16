@@ -1,9 +1,12 @@
 
+/* Seccion sobre mi index */
 .sobreMi{
         
         border-radius: 30px;
         padding:20px;
     }
+
+    /* Navegador de redes sociales */
 .posicionRedes{
         position: fixed;
         top: 200px;
@@ -20,15 +23,24 @@
         width: $width;
      }
      
-
+/* tamaño iconos */
 .icon{
                 @include sizes(50px, 50px);
     }
 
+/* Circulo para logo */
+
 .circular{
-    border-radius: 50%
+    border-radius: 50%;
 }
      
+
+/* Viñeta trofeo para certificaciones */
 .vineta{
     @include sizes(30px,30px);
+}
+
+/* Redondear bordes */
+.bordesRedondeados{
+    border-radius: 20px ;
 }
